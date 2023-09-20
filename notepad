@@ -142,3 +142,78 @@
     <option value="Maison">Maison</option>
     <option value="Appartement" selected>Appartement</option>
 </select>
+
+
+
+Carousel idea 1:
+    <!-- <div class="carousel-box">
+            <div class="carousel">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="left">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+                <img src="789_1.jpg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="right">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div> -->
+
+
+<!-- <div class="bloc carousel-box-idea2">
+        <h2>Les derniers biens publiés</h2>
+        <div class="card-box">
+            <div class="card">
+                <div class="card-img">
+                    <img src="maison1.jpg" alt="">
+                </div>
+                <div class="card-description">
+                    <span class="card-title">MAISON F6 à <strong>CHANTELOUP EN BRIE</strong></span>
+                    <div class="card-info">
+                        <div><strong>515 000$</strong></div>
+                        <span>- 6 pièces</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="maison2.jpg" alt="">
+                </div>
+                <div class="card-description">
+                    <span class="card-title">MAISON F6 à <strong>LAGNY SUR MARNE</strong></span>
+                    <div class="card-info">
+                        <div><strong>675 000$</strong></div>
+                        <span>- 2 pièces</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="maison3.jpg" alt="">
+                </div>
+                <div class="card-description">
+                    <span class="card-title">MAISON F3 à <strong>LAGNY SUR MARNE</strong></span>
+                    <div class="card-info">
+                        <div><strong>525 000$</strong></div>
+                        <span>- 12 pièces</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="control-left">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+            <div class="dot dot-empty"> </div>
+            <div class="dot">
+                <div class="dot-full"> </div>
+            </div>
+            <div class="dot dot-empty"> </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="control-right">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </div>
+    </div> -->
