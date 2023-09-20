@@ -129,19 +129,16 @@
         </div>
     </div>
 
-    <div class="bloc search-bloc">
-        <div class="search-type">
-            <div>Vente</div>
-            <div>Location</div>
-        </div>
-        <div class="search-box">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="search-icon">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-            </svg>
 
-            <input class="search-input" type="text" placeholder="Recherche">
-        </div>
 
-    </div> -->
+
+
+
+<select name="buy-rent" id="buy-rent-input">
+    <option value="Achat">Achat</option>
+    <option value="Location" selected>Location</option>
+</select>
+<select name="property-type" id="property-type-input">
+    <option value="Maison">Maison</option>
+    <option value="Appartement" selected>Appartement</option>
+</select>

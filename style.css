@@ -4,10 +4,17 @@
    /* box-sizing: border-box; */
 }
 
+footer{
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 body{
     margin: 0 auto 0 auto;
-    
-
 }
 
 header{
@@ -68,6 +75,9 @@ header{
     }
 }
 
+
+/* header nav button test */
+
 .activepage-test{
     color: black;
     font-size: 24px;
@@ -79,46 +89,74 @@ header{
 }
 
 
-.search-container{
+/* home page search container */
+
+.home-search-container{
     margin: 0 auto 0 auto;
     position: relative;
+    margin-bottom: -175px;
     top: -250px;
     width: 900px;
-    height: 300px;
     background-color: rgba(255, 255, 255);
-    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.10);
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    & h2{
+        margin: 24px;
+    }
+}
+
+.home-search-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 24px;
+    margin-bottom: 86px;
+    margin-left: 24px;
+    margin-right: 24px;
+    gap: 12px;
+}
+
+.home-search-placeholder{
+    /* margin-bottom: 12px; */
+    padding: 0 36px 0 36px;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.10);
+    border-left: 3px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    & svg{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.home-search-submit-button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
-    & svg{
-        height: 24px;
-        width: 24px;
-        color: orange;
-    }
-    & input{
-        height: 40px;
-        width: 600px;
-        border: none;
-        border-bottom: 3px solid orange;
-        box-shadow: 0 12px 12px rgba(0, 0, 0, 0.05);
-        font-size: 30px;
-        &:focus{
-            outline: none;
-
-        }
-        &:active{
-            outline: none;
-        }
-    }
+    font-size: 30px;
+    font-weight: 700;
 }
 
 
 
 .bloc {
     margin: auto;
-    margin-top: 100px;    
     width: 1024px;
 }
 
@@ -128,28 +166,78 @@ header{
         border-bottom: 3px solid orange;
         width: 900px;
         display: block;
-        margin: 150px auto;
+        margin: 100px auto 0 auto;
     }
 }
 
 .blocbox{
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 12px;
 }
 
-.bloc1{
+.bloc-card{
     padding: 12px;
     display: flex;
     flex-direction: column;
-    width: 300px;
     box-shadow: 0 12px 12px rgba(0, 0, 0, 0.20);
-    border-bottom: 3px solid orange;
+    border-left: 3px solid orange;
+    margin: 24px;
 }
 
+.bloc1{
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.img1{
+    grid-column: 0 / 1;
+    grid-row: 1;
+}
+
+.bloc2{
+    grid-column: 0 / 1;
+    grid-row: 2;
+}
+
+.img2{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.bloc3{
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+.img3{
+    grid-column: 0 / 1;
+    grid-row: 3;
+}
+
+
+.contactus-button{
+    width: 250px;
+    height: 60px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
 .carousel-box-idea2{
-    /* box-shadow: 0 12px 12px rgba(0, 0, 0, 0.20); */
     & h2{
         margin-bottom: 40px;
     }
@@ -272,6 +360,25 @@ header{
     right: -25px;
 }
 
+
+.info-flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.info-sub-container{
+    flex-grow: 1;
+}
+
+
+
 .vide{
     height: 1000px;
 }
+
